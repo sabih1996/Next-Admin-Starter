@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+$primary-color: #bdd631;
+$color-grey: #939598;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito" !important ;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.j-primary-text {
+  color: $primary-color !important;
+  font-weight: 600;
+}
+.j-color-grey {
+  color: $color-grey !important;
+}
+.j-border-bottom {
+  border-bottom: 2px solid #dfd5d559;
+}
+
+.navbar-main {
+  position: fixed;
+  width: 100%;
+  z-index: 12;
+  background: #f1f9f9;
+  .navbar {
+    border-bottom: 1px solid #dfd5d559;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0 !important;
+
+    .navbar-brand {
+      padding-bottom: unset !important;
+    }
+    .user-img {
+      width: 40px;
+      cursor: pointer;
+
+      .dropdowntoggle {
+        background-color: white;
+        border: #e85451;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
+}
+.gp-bd-zero {
+  img {
+    border-radius: 0px !important;
+  }
+}
+
+.gp-cursor-pointer {
+  cursor: pointer;
+}
+
+.gp-blue-field {
+  background-color: #f1f9f9 !important;
+  border: 1px solid #f1f9f9 !important;
+}
+
+.j-yellow-field {
+  background-color: #f1f9f9 !important;
+  border: 1px solid #f1f9f9 !important;
+}
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 57px;
+  left: 0;
+  background-color: #f1f9f9;
+  overflow-x: hidden;
+  padding-top: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+
+  span {
+    padding: 3px 8px 3px 8px;
+    font-size: 16px;
+    color: $color-grey;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+
+  .promo-dropdown {
+    padding: 3px 8px 3px 8px;
+  }
+
+  .active {
+    background-color: $primary-color;
+    color: #ffffff;
+    border-radius: 4px;
+  }
+
+  #dropdown-basic {
+    background: none;
+    border: none;
+    color: #939598;
+    box-shadow: none;
+    font-weight: 600;
+  }
+}
+
+.yellow-radio-btn {
+  input {
+    border-color: $primary-color;
+  }
+}
+
+.gp-heading-text {
+  color: $primary-color;
+  font-style: normal;
+}
+
+.yellow-head {
+  color: $primary-color !important;
+}
+
+.j-color-red {
+  width: 250px;
+  color: #e85451;
+}
+
+.j-font-weight-600 {
+  font-weight: 600;
+}
+.j-loader {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #e3e3e366;
+  z-index: 20;
+}
+
+.btn-yellow {
+  background-color: $primary-color !important;
+  color: #fff;
+  border: 1px solid $primary-color !important;
+  margin-bottom: 70px;
+  border-radius: 0.25rem;
+  width: 200px;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.btn-white {
+  background-color: #ffffff !important;
+  border-radius: 0.25rem;
+  float: right;
+  border: 1px solid $primary-color !important;
+  width: 200px;
+  color: #333333 !important;
+}
+.accept-modal {
+  .head-sm {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .modal-heading {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .needs-head {
+    font-weight: 500;
+  }
+
+  .width-250 {
+    min-width: 250px;
+  }
+}
+
+.breadcrumb-item {
+  color: $color-grey;
+  a {
+    text-decoration: none;
+    color: $color-grey;
+    &:hover {
+      color: $primary-color !important;
+    }
+  }
+  &.active {
+    font-weight: 600;
+  }
+}
+
+.image-dimension {
+  position: absolute;
+  font-size: 14px;
+  top: 30px;
+  left: 150px;
+}
